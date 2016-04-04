@@ -1,0 +1,112 @@
+@import reset.css
+
+
+body{
+ 	background: pink;
+ 	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+ 	color: purple;
+
+}
+
+.page {
+    background: #444;
+    width: 700px;
+    margin: 50px;
+    border: 5px solid 	#777;
+    padding: 50px;
+    color: #fff;
+}
+
+h1 {
+	font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+	font-size: 24px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+        text-align: center;
+}
+
+header{
+        text-align: center;
+        padding-bottom: 50px;
+    	border-color: #777;
+    	border-style: none none solid none;
+		border-width: 2px;
+
+}
+footer{
+        text-align: center;
+        padding-top: 50px;
+    	border-color: #777;
+    	border-style: solid none none none;
+		border-width: 2px; ;
+}
+p{
+	color: #777;
+}
+strong{
+		color: #fff;
+}
+a{
+	font-family: 'Arial',  sans-serif;
+	background-color:transparent; 
+		padding: 5px;
+    border-color: #777;
+    border-style: none solid none none;
+	border-width: 2px;
+}
+a:link{
+color:  #6da; 
+text-decoration:underline;
+}
+a:visited{
+color: #fff; 
+text-decoration:none;
+}
+a:active{
+color: #fff; 
+text-decoration:none;
+}
+a:last-of-type { 
+	padding: 5px;
+    border-color: #777;
+    border-style: none;
+	border-width: 2px;
+}
+
+h2 {
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+    border: 1px solid 	#808080;
+    padding: 5px;
+}
+
+
+.jobtitle{
+	font-weight: bold;
+	    color: #fff;
+}
+.jobcompany{
+    color: #fff;
+
+}
+.jobdate{
+    color: #777;
+
+}
+.jobdescription{
+    color: #777;
+
+}
+
+
